@@ -74,6 +74,30 @@ input, select, textarea {
 
 /* Basic */
 
+	#popup1 {
+		display:none;
+	}
+	#popup2 {
+		display:none;
+	}
+	#popup3 {
+		display:none;
+	}
+	#popup4 {
+		display:none;
+	}
+	#popup5 {
+		display:none;
+	}
+	#popup6 {
+		display:none;
+	}
+
+	.inactiveLink {
+		pointer-events: none;
+		cursor: default;
+	 }
+
 	html {
 		box-sizing: border-box;
 	}

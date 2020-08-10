@@ -51,76 +51,152 @@
 				</div>
 			</section>
 
-			<style>
-				#popup {
-					display:none;
-				}
-
-				#popup1 {
-					display:none;
-				}
-				#popup2 {
-					display:none;
-				}
-				#popup3 {
-					display:none;
-				}
-				#popup4 {
-					display:none;
-				}
-				#popup5 {
-					display:none;
-				}
-				#popup6 {
-					display:none;
-				}
-
-			</style>
-	
 		<!-- Two -->
 			<section id="two" class="main style2">
 				<div class="container">
 					<div class="row gtr-150">
 						<div class="col-6 col-12-medium">
-
 							<ul class="major-icons">
-								<li><button onclick="document.getElementById('popup1').style.display='block'"><img src="images/android.png"></button></li>
-								<li><button onclick="document.getElementById('popup2').style.display='block'"><img src="images/mapsLogo.png"></button></li>
-								<li><button onclick="document.getElementById('popup3').style.display='block'"><img src="images/tensorflowLogo.png"></button></li>
-								<li><button onclick="document.getElementById('popup4').style.display='block'"><img src="images/webLogo.png"></button></li>
-								<li><button onclick="document.getElementById('popup5').style.display='block'"><img src="images/firebase.png"></button></li>
-								<li><button onclick="document.getElementById('popup6').style.display='block'"><img src="images/cloudLogo.png"></button></li>
+								<li><button onclick="showButton1()"><img src="images/android.png"></button></li>
+								<li><button onclick="showButton2()"><img src="images/mapsLogo.png"></button></li>
+								<li><button onclick="showButton3()"><img src="images/tensorflowLogo.png"></button></li>
+								<li><button onclick="showButton4()"><img src="images/webLogo.png"></button></li>
+								<li><button onclick="showButton5()"><img src="images/firebase.png"></button></li>
+								<li><button onclick="showButton6()"><img src="images/cloudLogo.png"></button></li>
 							</ul>
+
 						</div>
 						<div class="col-6 col-12-medium" id="popup">
-							<header class="major">
-								<h2>Lorem ipsum dolor adipiscing<br />
-								amet dolor consequat</h2>
+							<header>
+								<h2>Why Join CWRU DSC?<br/></h2>
 							</header>
-							<p>Adipiscing a commodo ante nunc accumsan interdum mi ante adipiscing. A nunc lobortis non nisl amet vis volutpat aclacus nascetur ac non. Lorem curae eu ante amet sapien in tempus ac. Adipiscing id accumsan adipiscing ipsum.</p>
-							<p>Blandit faucibus proin. Ac aliquam integer adipiscing enim non praesent vis commodo nunc phasellus cubilia ac risus accumsan. Accumsan blandit. Lobortis phasellus non lobortis dit varius mi varius accumsan lobortis. Blandit ante aliquam lacinia lorem lobortis semper morbi col faucibus vitae integer placerat accumsan orci eu mi odio tempus adipiscing adipiscing adipiscing curae consequat feugiat etiam dolore.</p>
-							<p>Adipiscing a commodo ante nunc accumsan interdum mi ante adipiscing. A nunc lobortis non nisl amet vis volutpat aclacus nascetur ac non. Lorem curae eu ante amet sapien in tempus ac. Adipiscing id accumsan adipiscing ipsum.</p>
+							<p><strong>Connect</strong> <br/> 
+								Meet other students on campus who are passionate about serving our local community. 
+								Work on different projects, brainstorm with each other, and have fun!
+								All are welcome, especially those with diverse backgrounds and different majors!</p>
+								
+								
+							<p><strong>Learn</strong> <br/>
+								
+								Learn about a wide range of technical topics where new skills are gained through hands-on workshops, in-person training, and project building activities.
+
+								Our goal is to empower our members with the tools and frameworks so that they may do something extraordinary for their community! </p>
+							<p><strong>Grow</strong> <br/>
+								Apply your new learnings and connections to build great solutions for local problems. Advance your skills, career, and network. Give back to your community by helping others learn as well!
+
+							</p>
+							<p><strong><em>Check out the left-hand panel to see the technologies we use!</em></strong></p>
 						</div>
 						
-						<div id="popup1">
+
+						
+						<div class="col-6 col-12-medium" id="popup1">
 							<header class="popup1">
 								<h2>Android<br/></h2>
 							</header>
-							<p>This is for android</p>
+							<p>
+								Android is a Linux-based operating system for mobile devices such as smartphones and tablets.
+								Come up with innovative Android application ideas that can support local businesses, or just play
+								around and make something fun!
+
+							</p>
+							<p>
+								If you've used Android Studio before, then you know how easy it is to create a simple App! From creating a 
+								menu for your favorite restuarant to making a checklist of groceries that are about to expire, the options are endless!
+
+							</p>
+							<a href="https://developer.android.com/" target="_blank">Click here to check out more!</a>
+							<br/>
+							<br/>
+							<button onclick="back()">Back</button>
 						</div>
 
-						<div id="popup2">
+						<div class="col-6 col-12-medium" id="popup2">
 							<header class="popup2">
 								<h2>Maps<br/></h2>
 							</header>
-							<p>This is for Google maps</p>
+							<p>Who hasn't relied on Google Maps before? According to Google analytics, 
+								more than a BILLION people use Google Maps every month, and there are more
+								than 5 million active apps and websites that use Google Maps core products every week!
+							</p>
+
+							<p>
+								With the Google Maps Platform, you can build customized, agile experiences that bring the real world to your users with static and dynamic maps, Street View imagery, and 360° views.
+
+								Create a project, learn about products, and pick the ones you need! 
+							</p>
+							<p>Track and analyze API usage, use spending trends to frecast future bills, or take new and creative approaches to using this powerful technology!
+							</p>
+							<a href="https://developers.google.com/maps/documentation" target="_blank">Click here to check out more!</a>
+							<br/>
+							<br/>
+							<button onclick="back()">Back</button>
 						</div>
 
-						<div id="popup3">
+						<div class="col-6 col-12-medium" id="popup3">
 							<header class="popup3">
 								<h2>Tensorflow<br/></h2>
 							</header>
-							<p>Text here</p>
+							<p>Ever been interested in AI? Well, despite what many may think, artificial intelligence and machine learning is not that hard to learn!</p>
+								<p>Remember when you first touched a hot stove surface when you were younger and learned to never do it again?
+								Well if you haven't, feel free to do that now so we're all on the same boat! Turns out, machines learn the same way - trial and error!
+								</p>
+								
+								<p>As one of the world's best architecture for machine learning, Google's Tensorflow has made all sorts of novel accomplishments!
+									Read more about Tensorflow <a href="https://www.tensorflow.org/" target="_blank">here</a>, or learn more about neural networks by playing around with one <a href="http://playground.tensorflow.org/" target="_blank">here</a>!
+							
+							</p>
+							<button onclick="back()">Back</button>
+						</div>
+						<div class="col-6 col-12-medium" id="popup4">
+							<header class="popup4">
+								<h2>Web<br/></h2>
+							</header>
+							<p>Want to learn how to make awesome websites like this one? Check out Google Web Platform, a service
+								that teaches you all the things you need to know to learn web development!
+							</p>
+							<p>
+								Learn about different frameworks, tools, and languages to build yourself a personal website, or help out a 
+								local business by building them a custom one!
+							</p>
+
+							<p>
+								Stay active on the platform and you might be able to catch LIVE demonstrations of these technologies. If you tune in to one of these sessions,
+								make sure to stick around and ask REAL Google engineers whatever questions you have!
+							</p>
+							<a href="https://developers.google.com/web" target="_blank">Click here to check out more!</a>
+							<br/>
+							<br/>
+							<button onclick="back()">Back</button>
+						</div>
+						<div class="col-6 col-12-medium" id="popup5">
+							<header class="popup5">
+								<h2>Firebase<br/></h2>
+							</header>
+							<p>Firebase is Google's mobile platform that helps you quickly develop high-quality apps and grow your business.
+								With Firebase's plethora of extensions, you'll be able to build better apps, improve their quality, and grow your knowledge of app development altogether!
+							</p>
+							<p>
+								If you've ever wanted to create a chat function in your app, test out new features on a smaller user base, or integrate your app on iOS, Android, and the Web, 
+								<a href="https://firebase.google.com/" target="_blank">click here to check out Firebase</a>!
+							</p>
+							<br/>
+							<br/>
+							<button onclick="back()">Back</button>
+						</div>
+						<div class="col-6 col-12-medium" id="popup6">
+							<header class="popup6">
+								<h2>Cloud<br/></h2>
+							</header>
+							<p>Running your workloads remotely over the internet shouldn't cost you an arm and a leg.
+								Thanks to Google Cloud, you're able t to modernize your workloads on world-class infrastructure, protect your data with multilayered security, and drive decision-making with intelligent analytics, all provided by Google Cloud!
+								Just think of all the people we'll be able to reach with this technology! 
+							</p>
+							<p>In addition, new customers get $300 to spend on Google Cloud Platform products during their free trial! So, what are you waiting for!</p>
+							<a href="https://cloud.google.com/" target="_blank">Click here to check out more</a>!
+							<br/>
+							<br/>
+							<button onclick="back()">Back</button>
 						</div>
 					</div>
 				</div>
@@ -130,38 +206,42 @@
 			<section id="three" class="main style1 special">
 				<div class="container">
 					<header class="major">
-						<h2>Adipiscing amet consequat</h2>
+						<h2>Events</h2>
 					</header>
-					<p>Ante nunc accumsan et aclacus nascetur ac ante amet sapien sed.</p>
+					<p>Check out some of our past and future events!</p>
 					<div class="row gtr-150">
 						<div class="col-4 col-12-medium">
-							<span class="image fit"><img src="images/pic02.jpg" alt="" /></span>
-							<h3>Magna feugiat lorem</h3>
-							<p>Adipiscing a commodo ante nunc magna lorem et interdum mi ante nunc lobortis non amet vis sed volutpat et nascetur.</p>
+							<span class="image fit"><img src="images/Working together.jpg" alt="" /></span>
+							<h3>2020 North America Summit</h3>
+							<p>This years summit was unlike any other! Although it was virtual, the team still learned a ton about
+								running a DSC!
+							</p>
 							<ul class="actions special">
-								<li><a href="#" class="button">More</a></li>
+								<li><a href="#" style="border-bottom:none;"><button type="button" disabled>Check it out!</button></a></li>
 							</ul>
 						</div>
 						<div class="col-4 col-12-medium">
-							<span class="image fit"><img src="images/pic03.jpg" alt="" /></span>
-							<h3>Magna feugiat lorem</h3>
-							<p>Adipiscing a commodo ante nunc magna lorem et interdum mi ante nunc lobortis non amet vis sed volutpat et nascetur.</p>
+							<span class="image fit"><img src="images/sexyphoto.jpg" alt="" /></span>
+							<h3>Welcome To DSC!</h3>
+							<p>Thanks for stopping by at the Activities Fair! We'll be having our first general body meeting September 16th at 8:00 pm!</p>
 							<ul class="actions special">
-								<li><a href="#" class="button">More</a></li>
+								<li><a href="#" style="border-bottom:none;"><button type="button" disabled>Zoom Link</button></a></li>
 							</ul>
 						</div>
 						<div class="col-4 col-12-medium">
-							<span class="image fit"><img src="images/pic04.jpg" alt="" /></span>
-							<h3>Magna feugiat lorem</h3>
-							<p>Adipiscing a commodo ante nunc magna lorem et interdum mi ante nunc lobortis non amet vis sed volutpat et nascetur.</p>
+							<span class="image fit"><img src="images/WorkingTogether.jpg" alt="" /></span>
+							<h3>HackCWRU 2021</h3>
+							<p>CWRU DSC is proud to announce our partnership with HackCWRU for the 2021 hackathon!
+								Stay tuned for sign-ups!
+							</p>
 							<ul class="actions special">
-								<li><a href="#" class="button">More</a></li>
+								<li><a href="#" style="border-bottom:none;"><button type="button" disabled>Sign-ups</button></a></li>
 							</ul>
 						</div>
 					</div>
 				</div>
 			</section>
-
+		
 		<!-- Four -->
 		<section id="four" class="main style2 special">
 			<div class="container">
@@ -171,7 +251,7 @@
 				<p>Join today for exclusive opportunities you won't want to miss!</p>
 				<ul class="actions special">
 					<li><a href="#" class="button wide primary">Sign Up</a></li>
-					<li><a href="https://developers.google.com/community/dsc" class="button wide">Learn More</a></li>
+					<li><a href="https://developers.google.com/community/dsc" target="_blank" class="button wide">Learn More</a></li>
 				</ul>
 			</div>
 		</section>
@@ -497,17 +577,16 @@ print 'It took ' + i + ' iterations to sort the deck.';</code></pre>
 		<!-- Footer -->
 			<section id="footer">
 				<ul class="icons">
-					<li><a href="#" class="icon brands alt fa-twitter"><span class="label">Twitter</span></a></li>
-					<li><a href="#" class="icon brands alt fa-facebook-f"><span class="label">Facebook</span></a></li>
-					<li><a href="#" class="icon brands alt fa-instagram"><span class="label">Instagram</span></a></li>
-					<li><a href="#" class="icon brands alt fa-github"><span class="label">GitHub</span></a></li>
-					<li><a href="#" class="icon solid alt fa-envelope"><span class="label">Email</span></a></li>
+					<li><a href="https://www.linkedin.com/company/developerstudentclubs/" target="_blank" class="icon brands alt fa-linkedin"><span class="label">LinkedIn</span></a></li>
+					<li><a href="https://www.facebook.com/cwrugoogledsc/?ref=page_internal" target="_blank" class="icon brands alt fa-facebook-f"><span class="label">Facebook</span></a></li>
+					<li><a href="https://www.instagram.com/developerstudentclubs/" target="_blank" class="icon brands alt fa-instagram"><span class="label">Instagram</span></a></li>
+					<li><a href="https://dsc.community.dev/case-western-reserve-university/" target="_blank" class="icon solid alt fa-envelope"><span class="label">Email</span></a></li>
 				</ul>
 				<ul class="copyright">
 					<li>&copy; CWRU-DSC 2020</li><li>Design: <a href="http://html5up.net">HTML5 UP</a></li>
 				</ul>
 			</section>
-
+			
 		<!-- Scripts -->
 			<script src="assets/js/jquery.min.js"></script>
 			<script src="assets/js/jquery.scrolly.min.js"></script>
@@ -515,6 +594,87 @@ print 'It took ' + i + ' iterations to sort the deck.';</code></pre>
 			<script src="assets/js/breakpoints.min.js"></script>
 			<script src="assets/js/util.js"></script>
 			<script src="assets/js/main.js"></script>
+
+			<script>
+				var b0 = document.getElementById("popup");
+				var b1 = document.getElementById("popup1");
+				var b2 = document.getElementById("popup2");
+				var b3 = document.getElementById("popup3");
+				var b4 = document.getElementById("popup4");
+				var b5 = document.getElementById("popup5");
+				var b6 = document.getElementById("popup6");
+
+				function showButton1() {
+					b0.style.display="none";
+					b2.style.display="none";
+					b3.style.display="none";
+					b4.style.display="none";
+					b5.style.display="none";
+					b6.style.display="none";
+					b1.style.display="block";
+				}
+
+				function showButton2() {
+					b0.style.display="none";
+					b1.style.display="none";
+					b3.style.display="none";
+					b4.style.display="none";
+					b5.style.display="none";
+					b6.style.display="none";
+					b2.style.display="block";
+				}
+
+				function showButton3() {
+					b0.style.display="none";
+					b2.style.display="none";
+					b1.style.display="none";
+					b4.style.display="none";
+					b5.style.display="none";
+					b6.style.display="none";
+					b3.style.display="block";
+				}
+
+				function showButton4() {
+					b0.style.display="none";
+					b2.style.display="none";
+					b3.style.display="none";
+					b1.style.display="none";
+					b5.style.display="none";
+					b6.style.display="none";
+					b4.style.display="block";
+				}
+
+				function showButton5() {
+					b0.style.display="none";
+					b2.style.display="none";
+					b3.style.display="none";
+					b4.style.display="none";
+					b1.style.display="none";
+					b6.style.display="none";
+					b5.style.display="block";
+				}
+
+				function showButton6() {
+					b0.style.display="none";
+					b2.style.display="none";
+					b3.style.display="none";
+					b4.style.display="none";
+					b1.style.display="none";
+					b5.style.display="none";
+					b6.style.display="block";
+				}
+
+				function back() {
+					b6.style.display="none";
+					b2.style.display="none";
+					b3.style.display="none";
+					b4.style.display="none";
+					b1.style.display="none";
+					b5.style.display="none";
+					b0.style.display="block";
+				}
+
+			</script>
 
 	</body>
 </html>
