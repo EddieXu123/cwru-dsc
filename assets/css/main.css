@@ -3286,6 +3286,36 @@ input, select, textarea {
 					padding: 0;
 				}
 
+
+	@media screen and (max-width: 5000px) {
+		/* Icons */
+			
+		ul.major-icons li img {
+			-moz-transform: rotate(-45deg);
+			-webkit-transform: rotate(-45deg);
+			-ms-transform: rotate(-45deg);
+			position: absolute;
+			left: 39px;
+			bottom: 40px;
+		}
+
+
+	}
+	@media screen and (max-width: 1900px) {
+		/* Icons */
+			
+		ul.major-icons li img {
+			-moz-transform: rotate(-45deg);
+			-webkit-transform: rotate(-45deg);
+			-ms-transform: rotate(-45deg);
+			position: absolute;
+			left: 39px;
+			bottom: 40px;
+		}
+
+
+	}
+
 /* XLarge */
 
 	@media screen and (max-width: 1680px) {
@@ -3295,6 +3325,19 @@ input, select, textarea {
 			body, input, select, textarea {
 				font-size: 14pt;
 			}
+
+
+		/* Icons */
+			
+			ul.major-icons li img {
+				-moz-transform: rotate(-45deg);
+				-webkit-transform: rotate(-45deg);
+				-ms-transform: rotate(-45deg);
+				position: absolute;
+				left: 28px;
+				bottom: 33px;
+			}
+
 
 		/* Header */
 
